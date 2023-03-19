@@ -65,18 +65,22 @@ pip install scikit-image
 
 ## Usage
 
+Clone the repository
 ```bash
 git clone <repository_link>
 ```
 
+Get into the directory where you downloaded the repository
 ```bash
 cd <cloned_Directory_name>
 ```
 
+Run the file to train and save the model
 ```bash
 python Train.py
 ```
 
+Run this file to test images using the saved model
 ```bash
 python Test.py
 ```
