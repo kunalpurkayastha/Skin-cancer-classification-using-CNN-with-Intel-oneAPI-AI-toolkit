@@ -7,6 +7,11 @@ Download Anaconda to run the files in Intel optimized Python and Intel optimized
 
 After installing Anaconda, open the CMD.exe prompt from the Anaconda and run the following commands
 
+Install Intel optimized python in conda
+```bash
+conda install -c intel intelpython3_full
+```
+
 Create a virtual environment with Intel optimized Python
 ```bash
 conda create -n <your_environment_name> intelpython3_full python=3.8
@@ -65,12 +70,7 @@ pip install scikit-image
 
 ## Usage
 
-Clone the repository
-```bash
-git clone <repository_link>
-```
-
-Get into the directory where you downloaded the repository
+Get into the directory where you saved the dataset and codes
 ```bash
 cd <cloned_Directory_name>
 ```
